@@ -1,5 +1,6 @@
-.home{
+#home{
     display: flex;
+    padding: 140px;
     
 }
 .half-width{
@@ -32,7 +33,6 @@
     display: flex;
     justify-content: space-evenly;
     padding: 50px 30px;
-    margin-top: 100px;
     border-top: 1px solid rgb(238, 213, 213);
     border-bottom: 1px solid rgb(238, 213, 213);
 }

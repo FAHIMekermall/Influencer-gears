@@ -14,10 +14,12 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #f4faf9;
 }
+main{
+    padding: 100px;
+}
 .container{
     max-width: 1300px;
     margin: 0px auto;
-    margin-top: 140px;
 }
 .linkbutton{
     text-decoration: none;

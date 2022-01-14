@@ -5,9 +5,11 @@
 .half-width{
     width: 50%;
 }
+.home-text{
+    color: rgba(58, 58, 58, 1);
+}
 .home-text > h1{
     font-size: 52px;
-    color: rgba(58, 58, 58, 1);
     font-weight: 700;
 }
 .home-text p{

@@ -2,12 +2,13 @@ header{
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #fff;
     box-shadow: 5px 5px 10px gray;
-    padding: 57px 0 0 0;
+    padding: 37px 0 0 0;
+    z-index: 5;
 }
 .navigation-container{
-    width: 1200px;
+    width: 1300px;
     margin: 20px auto;
 }
 .navigation{

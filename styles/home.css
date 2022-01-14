@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    
+}
+.half-width{
+    width: 50%;
+}
+.home-text > h1{
+    font-size: 52px;
+    color: rgba(58, 58, 58, 1);
+    font-weight: 700;
+}
+.home-text p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.home-thumbnail{
+    margin-left: 90px;
+    background-image: url(../images/Circledesign.svg);
+    background-repeat: no-repeat;
+    width: 500px;
+}
+.home-thumbnail img{
+    width: 460px;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+.online-shops{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 30px;
+    margin-top: 70px;
+    border-top: 1px solid rgb(238, 213, 213);
+    border-bottom: 1px solid rgb(238, 213, 213);
+}

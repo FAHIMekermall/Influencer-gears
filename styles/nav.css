@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 87px 10px;
+    color: rgba(58, 58, 58, 1);
 }
 .top-text{
     font-size: 24px;
@@ -19,5 +20,13 @@
     text-decoration: none;
     color: black;
     font-weight: 500;
-    padding: 15px 15px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.navigation > ul > li > a:hover{
+    background-color: gray;
+}
+.navigation > ul > li > a:active{
+    position: relative;
+    top: 4px;
 }

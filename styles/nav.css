@@ -1,7 +1,19 @@
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px gray;
+    padding: 57px 0 0 0;
+}
+.navigation-container{
+    width: 1200px;
+    margin: 20px auto;
+}
 .navigation{
     display: flex;
     justify-content: space-between;
-    margin: 87px 10px;
+    margin: 20px 10px;
     color: rgba(58, 58, 58, 1);
 }
 .top-text{

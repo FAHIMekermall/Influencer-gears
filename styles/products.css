@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: repeat(3, 300px);
     justify-content: center;
-    grid-gap: 30px;
+    grid-gap: 40px;
 }
 .products-container > h3{
     color: 
@@ -30,7 +30,7 @@ article:hover{
     overflow: hidden;
 }
 article img{
-    width: 300px;
+    width: 320px;
     height: 256px;
     transition: transform 0.2s linear;
 }
@@ -55,4 +55,14 @@ article > h3{
 }
 .star-rate{
     color: orange;
+}
+.see-more{
+    justify-content: center;
+    text-decoration: none;
+    color: rgba(224, 44, 109, 1);
+    margin: 50px 110px 0 0;
+}
+.link-holder{
+    display: flex;
+    justify-content: end;
 }

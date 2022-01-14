@@ -1,0 +1,36 @@
+footer{
+    background-color: 
+    rgba(10, 8, 38, 1);
+    color: hsl(0, 0%, 100%);
+    padding: 40px;
+}
+footer h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+footer p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-link{
+    margin: 10px; ;
+    font-size: 16px;
+    border-radius: 50%;
+    background-color: rgba(70, 33, 104, 0.438);
+    transition: background-color 0.2s linear;
+}
+.social-link:hover{
+    background-color: rgb(71, 36, 104);
+}
+.social-link a{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}

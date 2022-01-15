@@ -2,7 +2,7 @@ header{
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.87);
     box-shadow: 5px 5px 10px gray;
     padding: 37px 0 0 0;
     z-index: 5

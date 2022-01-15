@@ -67,11 +67,11 @@
         width: 100%;
     }
     .online-shops{
-        margin: 20px;
+        margin: 20px 5px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 10px;
+        padding: 0px;
     }
     .online-shops a{
         margin:2px 15px;
@@ -87,5 +87,37 @@
     }
     .products-container {
         padding-top: 20px;
+    }
+}
+/*----------------------- media query for tablet  -----------------*/
+@media only screen and (min-width:689px) and (max-width:1240px){
+    .container{
+        max-width: 800px;
+        margin: 0px auto;
+    }
+    header{
+        padding: 20px 0 0 0;
+    }
+    .navigation-container{
+        width: 800px;
+        margin: 20px auto;
+    }
+    .navigation{
+        margin: 10px 5px;
+    }
+    #home{
+        padding-top: 40px;
+    }
+    .products-container{
+        padding-top: 40px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+    }
+    .link-holder{
+        display: flex;
+        justify-content: start;
+        margin-left: 80px;
     }
 }

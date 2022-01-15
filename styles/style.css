@@ -37,3 +37,6 @@ main{
     position: relative;
     top: 4px;
 }
+#linkbutton-square{
+    border-radius: 0;
+}
